@@ -32,19 +32,13 @@ Example code can be found [here](src/main/java/DisplayMain.java).
 
 ## Mapping GPIO pins to `DisplayController`'s constructor
 ```java
-                              | GPIO pin addresses,       |
-                              | one for each segment      |
-
-                              | Pin # --------------------|
-                              | 1   2   3   4   5   6   7 |
-                              | |   |   |   |   |   |   | |
-new DisplayController(context, 18, 27, 25, 24, 23, 22, 17);
+new DisplayController(context, /** 7 GPIO pin addresses, each connected to a display segment **/);
 ```   
 ![led](img/led.png)
 
 ## Board example
 
-![board](img/board.jpg)
+![board](img/board.jpg)  
 *An example board.*  
 *Each segment is powered by a NPN transistor, each with its base connected to the corresponding GPIO pin.*  
 *The display on the photo is an old Russian LED display with a common anode.*
