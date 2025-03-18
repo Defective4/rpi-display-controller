@@ -1,4 +1,5 @@
 # Raspberry Pi LED Display Controller
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)  
 Control one LED segment display with your Raspberry Pi using any integrated circuits.  
 
 - [Installation](#installation)
